@@ -1,4 +1,4 @@
-package ru.kafkacourse.lessons.kafka.tutorial1;
+package ru.kafkacourse.lessons.kafka.tutorial;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -25,7 +25,5 @@ public class ProducerDemo {
         producer.send(producerRecord);
         producer.flush();
         producer.close();
-
-        System.out.println("HelloWorld");
     }
 }
